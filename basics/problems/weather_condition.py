@@ -1,8 +1,9 @@
 weather=input("what is condition of weather(sunny,rainy,snow): ")
-if weather == "sunny":
-    condition= "go for walk"
-elif weather == "rainy":
-    condition = "read a book"
+lower_weather=weather.lower()
+if lower_weather == "sunny":
+    activity= "go for walk"
+elif lower_weather == "rainy":
+    activity = "read a book"
 else:
-    condition= "watch netflix"
-print(condition)            
+    activity= "watch netflix"
+print(activity)            
